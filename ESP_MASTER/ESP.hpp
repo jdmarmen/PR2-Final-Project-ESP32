@@ -16,7 +16,6 @@ class ESP
     
 public:
     static void init();
-    static void update_button();
 
     template <typename... Args>
     static std::string create_json(Args... args);
